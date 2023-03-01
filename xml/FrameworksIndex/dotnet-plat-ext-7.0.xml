@@ -1,100 +1,100 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Framework Name="dotnet-plat-ext-7.0">
+<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="dotnet-plat-ext-8.0">
   <Assemblies>
-    <Assembly Name="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0.0" />
+    <Assembly Name="Microsoft.Bcl.AsyncInterfaces" Version="1.0.0.0" />
     <Assembly Name="Microsoft.Bcl.HashCode" Version="1.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Caching.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Caching.Memory" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.Binder" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.CommandLine" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.Ini" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.Json" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.KeyPerFile" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.UserSecrets" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Configuration.Xml" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.DependencyInjection" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.DependencyModel" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.FileProviders.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.FileProviders.Composite" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.FileProviders.Embedded" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.FileProviders.Physical" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.FileSystemGlobbing" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Hosting" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Http" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Localization.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Localization" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging.Configuration" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging.Console" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging.Debug" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging.EventLog" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging.EventSource" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Logging.TraceSource" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.ObjectPool" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Options.DataAnnotations" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Options" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.Primitives" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Extensions.WebEncoders" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Win32.Registry.AccessControl" Version="7.0.0.0" />
-    <Assembly Name="Microsoft.Win32.SystemEvents" Version="7.0.0.0" />
-    <Assembly Name="System.CodeDom" Version="7.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Caching.Memory" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.Binder" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.CommandLine" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.Ini" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.Json" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.KeyPerFile" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Configuration.Xml" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.DependencyInjection" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.DependencyModel" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.FileProviders.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.FileProviders.Composite" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.FileProviders.Embedded" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.FileProviders.Physical" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.FileSystemGlobbing" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Hosting" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Http" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Localization.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Localization" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging.Configuration" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging.Console" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging.Debug" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging.EventLog" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging.EventSource" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Logging.TraceSource" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.ObjectPool" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Options.DataAnnotations" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Options" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.Primitives" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Extensions.WebEncoders" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Win32.Registry.AccessControl" Version="8.0.0.0" />
+    <Assembly Name="Microsoft.Win32.SystemEvents" Version="8.0.0.0" />
+    <Assembly Name="System.CodeDom" Version="8.0.0.0" />
     <Assembly Name="System.ComponentModel.Composition" Version="4.0.0.0" />
-    <Assembly Name="System.ComponentModel.Composition.Registration" Version="7.0.0.0" />
-    <Assembly Name="System.Composition.AttributedModel" Version="7.0.0.0" />
-    <Assembly Name="System.Composition.Convention" Version="7.0.0.0" />
-    <Assembly Name="System.Composition.Hosting" Version="7.0.0.0" />
-    <Assembly Name="System.Composition.Runtime" Version="7.0.0.0" />
-    <Assembly Name="System.Composition.TypedParts" Version="7.0.0.0" />
-    <Assembly Name="System.Configuration.ConfigurationManager" Version="7.0.0.0" />
-    <Assembly Name="System.Data.Odbc" Version="7.0.0.0" />
-    <Assembly Name="System.Data.OleDb" Version="7.0.0.0" />
+    <Assembly Name="System.ComponentModel.Composition.Registration" Version="8.0.0.0" />
+    <Assembly Name="System.Composition.AttributedModel" Version="8.0.0.0" />
+    <Assembly Name="System.Composition.Convention" Version="8.0.0.0" />
+    <Assembly Name="System.Composition.Hosting" Version="8.0.0.0" />
+    <Assembly Name="System.Composition.Runtime" Version="8.0.0.0" />
+    <Assembly Name="System.Composition.TypedParts" Version="8.0.0.0" />
+    <Assembly Name="System.Configuration.ConfigurationManager" Version="8.0.0.0" />
+    <Assembly Name="System.Data.Odbc" Version="8.0.0.0" />
+    <Assembly Name="System.Data.OleDb" Version="8.0.0.0" />
     <Assembly Name="System.Data.SqlClient" Version="4.6.1.5" />
-    <Assembly Name="System.Diagnostics.EventLog" Version="7.0.0.0" />
-    <Assembly Name="System.Diagnostics.PerformanceCounter" Version="7.0.0.0" />
+    <Assembly Name="System.Diagnostics.EventLog" Version="8.0.0.0" />
+    <Assembly Name="System.Diagnostics.PerformanceCounter" Version="8.0.0.0" />
     <Assembly Name="System.DirectoryServices.AccountManagement" Version="4.0.0.0" />
     <Assembly Name="System.DirectoryServices" Version="4.0.0.0" />
     <Assembly Name="System.DirectoryServices.Protocols" Version="4.0.0.0" />
-    <Assembly Name="System.Drawing.Common" Version="7.0.0.0" />
-    <Assembly Name="System.Formats.Cbor" Version="7.0.0.0" />
-    <Assembly Name="System.IO.Hashing" Version="7.0.0.0" />
-    <Assembly Name="System.IO.Packaging" Version="7.0.0.0" />
-    <Assembly Name="System.IO.Pipelines" Version="7.0.0.0" />
-    <Assembly Name="System.IO.Ports" Version="7.0.0.0" />
+    <Assembly Name="System.Drawing.Common" Version="8.0.0.0" />
+    <Assembly Name="System.Formats.Cbor" Version="8.0.0.0" />
+    <Assembly Name="System.IO.Hashing" Version="8.0.0.0" />
+    <Assembly Name="System.IO.Packaging" Version="8.0.0.0" />
+    <Assembly Name="System.IO.Pipelines" Version="8.0.0.0" />
+    <Assembly Name="System.IO.Ports" Version="8.0.0.0" />
     <Assembly Name="System.Json" Version="2.0.8.0" />
     <Assembly Name="System.Management" Version="4.0.0.0" />
-    <Assembly Name="System.Memory.Data" Version="7.0.0.0" />
-    <Assembly Name="System.Net.Http.WinHttpHandler" Version="7.0.0.0" />
+    <Assembly Name="System.Memory.Data" Version="8.0.0.0" />
+    <Assembly Name="System.Net.Http.WinHttpHandler" Version="8.0.0.0" />
     <Assembly Name="System.Net.WebSockets.WebSocketProtocol" Version="5.0.0.0" />
     <Assembly Name="System.Reflection.Context" Version="4.0.3.0" />
-    <Assembly Name="System.Reflection.MetadataLoadContext" Version="7.0.0.0" />
-    <Assembly Name="System.Resources.Extensions" Version="7.0.0.0" />
+    <Assembly Name="System.Reflection.MetadataLoadContext" Version="8.0.0.0" />
+    <Assembly Name="System.Resources.Extensions" Version="8.0.0.0" />
     <Assembly Name="System.Runtime.Caching" Version="4.0.0.0" />
-    <Assembly Name="System.Security.Cryptography.Cose" Version="7.0.0.0" />
-    <Assembly Name="System.Security.Cryptography.Pkcs" Version="7.0.0.0" />
-    <Assembly Name="System.Security.Cryptography.ProtectedData" Version="7.0.0.0" />
-    <Assembly Name="System.Security.Cryptography.Xml" Version="7.0.0.0" />
-    <Assembly Name="System.Security.Permissions" Version="7.0.0.0" />
+    <Assembly Name="System.Security.Cryptography.Cose" Version="8.0.0.0" />
+    <Assembly Name="System.Security.Cryptography.Pkcs" Version="8.0.0.0" />
+    <Assembly Name="System.Security.Cryptography.ProtectedData" Version="8.0.0.0" />
+    <Assembly Name="System.Security.Cryptography.Xml" Version="8.0.0.0" />
+    <Assembly Name="System.Security.Permissions" Version="8.0.0.0" />
     <Assembly Name="System.ServiceModel" Version="4.0.0.0" />
-    <Assembly Name="System.ServiceModel.Duplex" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.Http" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.NetTcp" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.Primitives" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.Security" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.Syndication" Version="7.0.0.0" />
-    <Assembly Name="System.ServiceProcess.ServiceController" Version="7.0.0.0" />
-    <Assembly Name="System.Threading.AccessControl" Version="7.0.0.0" />
-    <Assembly Name="System.Windows.Extensions" Version="7.0.0.0" />
+    <Assembly Name="System.ServiceModel.Duplex" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.Http" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.NetTcp" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.Primitives" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.Security" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.Syndication" Version="8.0.0.0" />
+    <Assembly Name="System.ServiceProcess.ServiceController" Version="8.0.0.0" />
+    <Assembly Name="System.Threading.AccessControl" Version="8.0.0.0" />
+    <Assembly Name="System.Windows.Extensions" Version="8.0.0.0" />
   </Assemblies>
   <Namespace Name="Microsoft.CSharp">
     <Type Name="Microsoft.CSharp.CSharpCodeProvider" Id="T:Microsoft.CSharp.CSharpCodeProvider">
@@ -676,6 +676,7 @@
   <Namespace Name="Microsoft.Extensions.DependencyInjection">
     <Type Name="Microsoft.Extensions.DependencyInjection.ActivatorUtilities" Id="T:Microsoft.Extensions.DependencyInjection.ActivatorUtilities">
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(System.Type,System.Type[])" />
+      <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory``1(System.Type[])" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(System.IServiceProvider,System.Type,System.Object[])" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance``1(System.IServiceProvider,System.Object[])" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(System.IServiceProvider,System.Type)" />
@@ -806,6 +807,7 @@
       <Member Id="M:Microsoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions.AddMemoryCache(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.Caching.Memory.MemoryCacheOptions})" />
     </Type>
     <Type Name="Microsoft.Extensions.DependencyInjection.ObjectFactory" Id="T:Microsoft.Extensions.DependencyInjection.ObjectFactory" />
+    <Type Name="Microsoft.Extensions.DependencyInjection.ObjectFactory`1" Id="T:Microsoft.Extensions.DependencyInjection.ObjectFactory`1" />
     <Type Name="Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions" Id="T:Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions">
       <Member Id="M:Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions.Bind``1(Microsoft.Extensions.Options.OptionsBuilder{``0},Microsoft.Extensions.Configuration.IConfiguration)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions.Bind``1(Microsoft.Extensions.Options.OptionsBuilder{``0},Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.Configuration.BinderOptions})" />
@@ -14404,22 +14406,26 @@
     <Type Name="System.IO.Hashing.Crc32" Id="T:System.IO.Hashing.Crc32">
       <Member Id="M:System.IO.Hashing.Crc32.#ctor" />
       <Member Id="M:System.IO.Hashing.Crc32.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc32.GetCurrentHashAsUInt32" />
       <Member Id="M:System.IO.Hashing.Crc32.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.GetHashAndResetCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.Crc32.Hash(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc32.HashToUInt32(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.Reset" />
       <Member Id="M:System.IO.Hashing.Crc32.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
     </Type>
     <Type Name="System.IO.Hashing.Crc64" Id="T:System.IO.Hashing.Crc64">
       <Member Id="M:System.IO.Hashing.Crc64.#ctor" />
       <Member Id="M:System.IO.Hashing.Crc64.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc64.GetCurrentHashAsUInt64" />
       <Member Id="M:System.IO.Hashing.Crc64.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.GetHashAndResetCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.Crc64.Hash(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc64.HashToUInt64(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.Reset" />
       <Member Id="M:System.IO.Hashing.Crc64.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
     </Type>
@@ -14441,15 +14447,45 @@
       <Member Id="M:System.IO.Hashing.NonCryptographicHashAlgorithm.TryGetHashAndReset(System.Span{System.Byte},System.Int32@)" />
       <Member Id="P:System.IO.Hashing.NonCryptographicHashAlgorithm.HashLengthInBytes" />
     </Type>
+    <Type Name="System.IO.Hashing.XxHash128" Id="T:System.IO.Hashing.XxHash128">
+      <Member Id="M:System.IO.Hashing.XxHash128.#ctor" />
+      <Member Id="M:System.IO.Hashing.XxHash128.#ctor(System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash128.GetCurrentHashAsUInt128" />
+      <Member Id="M:System.IO.Hashing.XxHash128.GetCurrentHashCore(System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.Byte[])" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.Byte[],System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.HashToUInt128(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Reset" />
+      <Member Id="M:System.IO.Hashing.XxHash128.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int64)" />
+    </Type>
+    <Type Name="System.IO.Hashing.XxHash3" Id="T:System.IO.Hashing.XxHash3">
+      <Member Id="M:System.IO.Hashing.XxHash3.#ctor" />
+      <Member Id="M:System.IO.Hashing.XxHash3.#ctor(System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash3.GetCurrentHashAsUInt64" />
+      <Member Id="M:System.IO.Hashing.XxHash3.GetCurrentHashCore(System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.Byte[])" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.Byte[],System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.HashToUInt64(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Reset" />
+      <Member Id="M:System.IO.Hashing.XxHash3.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int64)" />
+    </Type>
     <Type Name="System.IO.Hashing.XxHash32" Id="T:System.IO.Hashing.XxHash32">
       <Member Id="M:System.IO.Hashing.XxHash32.#ctor" />
       <Member Id="M:System.IO.Hashing.XxHash32.#ctor(System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash32.GetCurrentHashAsUInt32" />
       <Member Id="M:System.IO.Hashing.XxHash32.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.Byte[],System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.ReadOnlySpan{System.Byte},System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32)" />
+      <Member Id="M:System.IO.Hashing.XxHash32.HashToUInt32(System.ReadOnlySpan{System.Byte},System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Reset" />
       <Member Id="M:System.IO.Hashing.XxHash32.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int32)" />
     </Type>
@@ -14457,11 +14493,13 @@
       <Member Id="M:System.IO.Hashing.XxHash64.#ctor" />
       <Member Id="M:System.IO.Hashing.XxHash64.#ctor(System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash64.GetCurrentHashAsUInt64" />
       <Member Id="M:System.IO.Hashing.XxHash64.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.Byte[],System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.ReadOnlySpan{System.Byte},System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash64.HashToUInt64(System.ReadOnlySpan{System.Byte},System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Reset" />
       <Member Id="M:System.IO.Hashing.XxHash64.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int64)" />
     </Type>
@@ -18611,7 +18649,6 @@
       <Member Id="M:System.ServiceModel.ChannelFactory.OnOpen(System.TimeSpan)" />
       <Member Id="M:System.ServiceModel.ChannelFactory.OnOpened" />
       <Member Id="M:System.ServiceModel.ChannelFactory.OnOpening" />
-      <Member Id="M:System.ServiceModel.ChannelFactory.System#IAsyncDisposable#DisposeAsync" />
       <Member Id="M:System.ServiceModel.ChannelFactory.System#IDisposable#Dispose" />
       <Member Id="P:System.ServiceModel.ChannelFactory.Credentials" />
       <Member Id="P:System.ServiceModel.ChannelFactory.DefaultCloseTimeout" />
@@ -18649,12 +18686,10 @@
       <Member Id="M:System.ServiceModel.ClientBase`1.#ctor(System.String,System.String)" />
       <Member Id="M:System.ServiceModel.ClientBase`1.Abort" />
       <Member Id="M:System.ServiceModel.ClientBase`1.Close" />
-      <Member Id="M:System.ServiceModel.ClientBase`1.CloseAsync" />
       <Member Id="M:System.ServiceModel.ClientBase`1.CreateChannel" />
       <Member Id="M:System.ServiceModel.ClientBase`1.GetDefaultValueForInitialization``1" />
       <Member Id="M:System.ServiceModel.ClientBase`1.InvokeAsync(System.ServiceModel.ClientBase`1.BeginOperationDelegate{`0},System.Object[],System.ServiceModel.ClientBase`1.EndOperationDelegate{`0},System.Threading.SendOrPostCallback,System.Object)" />
       <Member Id="M:System.ServiceModel.ClientBase`1.Open" />
-      <Member Id="M:System.ServiceModel.ClientBase`1.System#IAsyncDisposable#DisposeAsync" />
       <Member Id="M:System.ServiceModel.ClientBase`1.System#IDisposable#Dispose" />
       <Member Id="M:System.ServiceModel.ClientBase`1.System#ServiceModel#ICommunicationObject#BeginClose(System.AsyncCallback,System.Object)" />
       <Member Id="M:System.ServiceModel.ClientBase`1.System#ServiceModel#ICommunicationObject#BeginClose(System.TimeSpan,System.AsyncCallback,System.Object)" />
