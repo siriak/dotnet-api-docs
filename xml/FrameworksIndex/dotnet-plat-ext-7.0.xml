@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Framework Name="dotnet-plat-ext-7.0">
+<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="dotnet-plat-ext-8.0">
   <Assemblies>
-    <Assembly Name="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0.0" />
+    <Assembly Name="Microsoft.Bcl.AsyncInterfaces" Version="1.0.0.0" />
     <Assembly Name="Microsoft.Bcl.HashCode" Version="1.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Caching.Abstractions" Version="7.0.0.0" />
     <Assembly Name="Microsoft.Extensions.Caching.Memory" Version="7.0.0.0" />
@@ -86,11 +86,11 @@
     <Assembly Name="System.Security.Cryptography.Xml" Version="7.0.0.0" />
     <Assembly Name="System.Security.Permissions" Version="7.0.0.0" />
     <Assembly Name="System.ServiceModel" Version="4.0.0.0" />
-    <Assembly Name="System.ServiceModel.Duplex" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.Http" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.NetTcp" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.Primitives" Version="4.10.0.0" />
-    <Assembly Name="System.ServiceModel.Security" Version="4.10.0.0" />
+    <Assembly Name="System.ServiceModel.Duplex" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.Http" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.NetTcp" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.Primitives" Version="4.9.0.0" />
+    <Assembly Name="System.ServiceModel.Security" Version="4.9.0.0" />
     <Assembly Name="System.ServiceModel.Syndication" Version="7.0.0.0" />
     <Assembly Name="System.ServiceProcess.ServiceController" Version="7.0.0.0" />
     <Assembly Name="System.Threading.AccessControl" Version="7.0.0.0" />
@@ -676,6 +676,7 @@
   <Namespace Name="Microsoft.Extensions.DependencyInjection">
     <Type Name="Microsoft.Extensions.DependencyInjection.ActivatorUtilities" Id="T:Microsoft.Extensions.DependencyInjection.ActivatorUtilities">
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(System.Type,System.Type[])" />
+      <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory``1(System.Type[])" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(System.IServiceProvider,System.Type,System.Object[])" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance``1(System.IServiceProvider,System.Object[])" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(System.IServiceProvider,System.Type)" />
@@ -806,6 +807,7 @@
       <Member Id="M:Microsoft.Extensions.DependencyInjection.MemoryCacheServiceCollectionExtensions.AddMemoryCache(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.Caching.Memory.MemoryCacheOptions})" />
     </Type>
     <Type Name="Microsoft.Extensions.DependencyInjection.ObjectFactory" Id="T:Microsoft.Extensions.DependencyInjection.ObjectFactory" />
+    <Type Name="Microsoft.Extensions.DependencyInjection.ObjectFactory`1" Id="T:Microsoft.Extensions.DependencyInjection.ObjectFactory`1" />
     <Type Name="Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions" Id="T:Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions">
       <Member Id="M:Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions.Bind``1(Microsoft.Extensions.Options.OptionsBuilder{``0},Microsoft.Extensions.Configuration.IConfiguration)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.OptionsBuilderConfigurationExtensions.Bind``1(Microsoft.Extensions.Options.OptionsBuilder{``0},Microsoft.Extensions.Configuration.IConfiguration,System.Action{Microsoft.Extensions.Configuration.BinderOptions})" />
@@ -14404,22 +14406,26 @@
     <Type Name="System.IO.Hashing.Crc32" Id="T:System.IO.Hashing.Crc32">
       <Member Id="M:System.IO.Hashing.Crc32.#ctor" />
       <Member Id="M:System.IO.Hashing.Crc32.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc32.GetCurrentHashAsUInt32" />
       <Member Id="M:System.IO.Hashing.Crc32.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.GetHashAndResetCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.Crc32.Hash(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc32.HashToUInt32(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc32.Reset" />
       <Member Id="M:System.IO.Hashing.Crc32.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
     </Type>
     <Type Name="System.IO.Hashing.Crc64" Id="T:System.IO.Hashing.Crc64">
       <Member Id="M:System.IO.Hashing.Crc64.#ctor" />
       <Member Id="M:System.IO.Hashing.Crc64.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc64.GetCurrentHashAsUInt64" />
       <Member Id="M:System.IO.Hashing.Crc64.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.GetHashAndResetCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.Crc64.Hash(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.Crc64.HashToUInt64(System.ReadOnlySpan{System.Byte})" />
       <Member Id="M:System.IO.Hashing.Crc64.Reset" />
       <Member Id="M:System.IO.Hashing.Crc64.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
     </Type>
@@ -14441,15 +14447,45 @@
       <Member Id="M:System.IO.Hashing.NonCryptographicHashAlgorithm.TryGetHashAndReset(System.Span{System.Byte},System.Int32@)" />
       <Member Id="P:System.IO.Hashing.NonCryptographicHashAlgorithm.HashLengthInBytes" />
     </Type>
+    <Type Name="System.IO.Hashing.XxHash128" Id="T:System.IO.Hashing.XxHash128">
+      <Member Id="M:System.IO.Hashing.XxHash128.#ctor" />
+      <Member Id="M:System.IO.Hashing.XxHash128.#ctor(System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash128.GetCurrentHashAsUInt128" />
+      <Member Id="M:System.IO.Hashing.XxHash128.GetCurrentHashCore(System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.Byte[])" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.Byte[],System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.HashToUInt128(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash128.Reset" />
+      <Member Id="M:System.IO.Hashing.XxHash128.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int64)" />
+    </Type>
+    <Type Name="System.IO.Hashing.XxHash3" Id="T:System.IO.Hashing.XxHash3">
+      <Member Id="M:System.IO.Hashing.XxHash3.#ctor" />
+      <Member Id="M:System.IO.Hashing.XxHash3.#ctor(System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash3.GetCurrentHashAsUInt64" />
+      <Member Id="M:System.IO.Hashing.XxHash3.GetCurrentHashCore(System.Span{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.Byte[])" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.Byte[],System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.HashToUInt64(System.ReadOnlySpan{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash3.Reset" />
+      <Member Id="M:System.IO.Hashing.XxHash3.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int64)" />
+    </Type>
     <Type Name="System.IO.Hashing.XxHash32" Id="T:System.IO.Hashing.XxHash32">
       <Member Id="M:System.IO.Hashing.XxHash32.#ctor" />
       <Member Id="M:System.IO.Hashing.XxHash32.#ctor(System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash32.GetCurrentHashAsUInt32" />
       <Member Id="M:System.IO.Hashing.XxHash32.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.Byte[],System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.ReadOnlySpan{System.Byte},System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32)" />
+      <Member Id="M:System.IO.Hashing.XxHash32.HashToUInt32(System.ReadOnlySpan{System.Byte},System.Int32)" />
       <Member Id="M:System.IO.Hashing.XxHash32.Reset" />
       <Member Id="M:System.IO.Hashing.XxHash32.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int32)" />
     </Type>
@@ -14457,11 +14493,13 @@
       <Member Id="M:System.IO.Hashing.XxHash64.#ctor" />
       <Member Id="M:System.IO.Hashing.XxHash64.#ctor(System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Append(System.ReadOnlySpan{System.Byte})" />
+      <Member Id="M:System.IO.Hashing.XxHash64.GetCurrentHashAsUInt64" />
       <Member Id="M:System.IO.Hashing.XxHash64.GetCurrentHashCore(System.Span{System.Byte})" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.Byte[])" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.Byte[],System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.ReadOnlySpan{System.Byte},System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Hash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int64)" />
+      <Member Id="M:System.IO.Hashing.XxHash64.HashToUInt64(System.ReadOnlySpan{System.Byte},System.Int64)" />
       <Member Id="M:System.IO.Hashing.XxHash64.Reset" />
       <Member Id="M:System.IO.Hashing.XxHash64.TryHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int64)" />
     </Type>
@@ -18611,7 +18649,6 @@
       <Member Id="M:System.ServiceModel.ChannelFactory.OnOpen(System.TimeSpan)" />
       <Member Id="M:System.ServiceModel.ChannelFactory.OnOpened" />
       <Member Id="M:System.ServiceModel.ChannelFactory.OnOpening" />
-      <Member Id="M:System.ServiceModel.ChannelFactory.System#IAsyncDisposable#DisposeAsync" />
       <Member Id="M:System.ServiceModel.ChannelFactory.System#IDisposable#Dispose" />
       <Member Id="P:System.ServiceModel.ChannelFactory.Credentials" />
       <Member Id="P:System.ServiceModel.ChannelFactory.DefaultCloseTimeout" />
@@ -18649,12 +18686,10 @@
       <Member Id="M:System.ServiceModel.ClientBase`1.#ctor(System.String,System.String)" />
       <Member Id="M:System.ServiceModel.ClientBase`1.Abort" />
       <Member Id="M:System.ServiceModel.ClientBase`1.Close" />
-      <Member Id="M:System.ServiceModel.ClientBase`1.CloseAsync" />
       <Member Id="M:System.ServiceModel.ClientBase`1.CreateChannel" />
       <Member Id="M:System.ServiceModel.ClientBase`1.GetDefaultValueForInitialization``1" />
       <Member Id="M:System.ServiceModel.ClientBase`1.InvokeAsync(System.ServiceModel.ClientBase`1.BeginOperationDelegate{`0},System.Object[],System.ServiceModel.ClientBase`1.EndOperationDelegate{`0},System.Threading.SendOrPostCallback,System.Object)" />
       <Member Id="M:System.ServiceModel.ClientBase`1.Open" />
-      <Member Id="M:System.ServiceModel.ClientBase`1.System#IAsyncDisposable#DisposeAsync" />
       <Member Id="M:System.ServiceModel.ClientBase`1.System#IDisposable#Dispose" />
       <Member Id="M:System.ServiceModel.ClientBase`1.System#ServiceModel#ICommunicationObject#BeginClose(System.AsyncCallback,System.Object)" />
       <Member Id="M:System.ServiceModel.ClientBase`1.System#ServiceModel#ICommunicationObject#BeginClose(System.TimeSpan,System.AsyncCallback,System.Object)" />
